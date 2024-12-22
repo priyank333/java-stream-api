@@ -29,5 +29,6 @@ public class App {
 		 */
 		int totalPages = books.stream().mapToInt(Book::getPages).sum();
 		System.out.println(totalPages);
+		//Test
 	}
 }
